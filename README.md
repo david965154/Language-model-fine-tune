@@ -14,7 +14,6 @@ perplexity : 使用模型對給定序列的預測概率的倒數
 ```python
 text = "Deep learing is a <mask> in this laboratory."
 
-
 mask_filler(text, top_k=3)
 
 [{'score': 0.18199005722999573,
